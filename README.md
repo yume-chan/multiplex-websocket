@@ -1,21 +1,42 @@
-# typescript-package-scaffold
+# Multiplex WebSocket
 
 [![travis-ci](https://travis-ci.org/yume-chan/typescript-package-scaffold.svg?branch=master)](https://travis-ci.org/yume-chan/typescript-package-scaffold)
 [![Greenkeeper badge](https://badges.greenkeeper.io/yume-chan/typescript-package-scaffold.svg)](https://greenkeeper.io/)
 
-*DESCRIPTION TO BE FILLED*
+A simple multiplex protocol for WebSocket
 
-- [typescript-package-scaffold](#typescript-package-scaffold)
-  - [API](#API)
-  - [Development](#Development)
-    - [Install dependencies:](#Install-dependencies)
-    - [Testing](#Testing)
-    - [Coverage](#Coverage)
-  - [License](#License)
+- [Multiplex WebSocket](#multiplex-websocket)
+  - [API](#api)
+  - [Development](#development)
+    - [Install dependencies:](#install-dependencies)
+    - [Testing](#testing)
+    - [Coverage](#coverage)
+  - [License](#license)
 
 ## API
 
-*TO BE FILLED*
+``` ts
+export default class MultiplexWebSocket {
+    static connect(url: string): Promise<MultiplexWebSocket>;
+
+    constructor(raw: WebSocket);
+
+    addChannel(): MultiplexWebSocketChannel;
+    close(): void;
+
+    on(type: 'channel', listener: (channel: MultiplexWebSocketChannel, head: Buffer) => void): this;
+    on(type: 'error', listener: (error: Error) => void): this;
+    on(type: 'close', listener: () => void): this;
+
+    off(type: 'channel', listener: (channel: MultiplexWebSocketChannel, head: Buffer) => void): this;
+    off(type: 'error', listener: (error: Error) => void): this;
+    off(type: 'close', listener: () => void): this;
+}
+
+export class MultiplexWebSocketChannel extends Duplex { }
+```
+
+`MultiplexWebSocketChannel` is a duplex stream so you can use common stream operations (`.read()`, `.write()`, `.pipe()`, `.on('data')`) on it.
 
 ## Development
 

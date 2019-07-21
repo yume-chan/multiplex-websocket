@@ -1,7 +1,7 @@
 {
-  "name": "typescript-package-scaffold",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@yume-chan/multiplex-websocket",
+  "version": "0.0.3",
+  "description": "A simple multiplex protocol for WebSocket",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yume-chan/typescript-package-scaffold.git"
+    "url": "git+https://github.com/yume-chan/multiplex-websocket.git"
   },
   "author": "Simon Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yume-chan/typescript-package-scaffold/issues"
+    "url": "https://github.com/yume-chan/multiplex-websocket/issues"
   },
-  "homepage": "https://github.com/yume-chan/typescript-package-scaffold#readme",
+  "homepage": "https://github.com/yume-chan/multiplex-websocket#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.2",
