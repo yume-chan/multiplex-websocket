@@ -1,6 +1,6 @@
 # Multiplex WebSocket
 
-[![travis-ci](https://travis-ci.org/yume-chan/multiplex-websocket.svg?branch=master)](https://travis-ci.org/yume-chan/typescript-package-scaffold)
+[![travis-ci](https://travis-ci.org/yume-chan/multiplex-websocket.svg?branch=master)](https://travis-ci.org/yume-chan/multiplex-websocket)
 [![Greenkeeper badge](https://badges.greenkeeper.io/yume-chan/multiplex-websocket.svg)](https://greenkeeper.io/)
 
 A simple multiplex protocol for WebSocket
