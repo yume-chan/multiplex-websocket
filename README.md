@@ -6,12 +6,35 @@
 A simple multiplex protocol for WebSocket
 
 - [Multiplex WebSocket](#multiplex-websocket)
+  - [Install](#install)
+    - [Node.js](#nodejs)
+    - [Browsers](#browsers)
   - [API](#api)
   - [Development](#development)
-    - [Install dependencies:](#install-dependencies)
+    - [Install dependencies](#install-dependencies)
     - [Testing](#testing)
     - [Coverage](#coverage)
   - [License](#license)
+
+## Install
+
+``` shell
+npm install @yume-chan/multiplex-websocket
+```
+
+### Node.js
+
+`ws` is a peer dependency, you need to install it separately for Node.js.
+
+``` shell
+npm install ws
+```
+
+### Browsers
+
+This package uses Node.js built-in modules (`Buffer`, `event` and `stream`), so it needs polyfills to run in browsers.
+
+Webpack should work, although not tested.
 
 ## API
 
@@ -42,7 +65,7 @@ export class MultiplexWebSocketChannel extends Duplex { }
 
 This project uses [pnpm](https://pnpm.js.org/) ([GitHub](https://github.com/pnpm/pnpm)) to manage dependency packages.
 
-### Install dependencies:
+### Install dependencies
 
 ``` shell
 pnpm i
