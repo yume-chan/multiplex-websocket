@@ -25,18 +25,18 @@
   "homepage": "https://github.com/yume-chan/multiplex-websocket#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
-    "@types/node": "^12.6.2",
+    "@types/node": "12.6.8",
     "@types/ws": "^6.0.1",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "typescript": "3.5.3",
-    "ws": "^7.1.0"
+    "ws": "7.1.1"
   },
   "dependencies": {
     "@yume-chan/async-operation-manager": "^1.0.1",
-    "@yume-chan/fallback-websocket": "^1.0.0"
+    "@yume-chan/fallback-websocket": "1.0.2"
   },
   "peerDependencies": {
-    "ws": "^7.1.0"
+    "ws": "^7.0.0"
   }
 }
