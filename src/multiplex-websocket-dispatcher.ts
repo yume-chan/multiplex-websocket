@@ -1,4 +1,5 @@
 import { PromiseResolver } from "@yume-chan/async-operation-manager";
+import WebSocket from '@yume-chan/fallback-websocket';
 
 import MultiplexWebSocketChannel from "./multiplex-websocket-channel";
 
