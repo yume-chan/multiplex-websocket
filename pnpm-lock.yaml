@@ -4,7 +4,7 @@ dependencies:
 devDependencies:
   '@types/jest': 24.0.15
   '@types/node': 12.12.7
-  '@types/ws': 6.0.1
+  '@types/ws': 7.2.2
   jest: 24.8.0
   ts-jest: 24.0.2_jest@24.8.0
   typescript: 3.5.3
@@ -329,10 +329,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-CeBpmX1J8kWLcDEnI3Cl2Eo6RfbGvzUctA+CjZUhOKDFbLfcr7fc4usEqLNWetrlJd7RhAkyYe2czXop4fICpw==
-  /@types/events/3.0.0:
-    dev: true
-    resolution:
-      integrity: sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
   /@types/istanbul-lib-coverage/2.0.1:
     dev: true
     resolution:
@@ -364,21 +360,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-E6Zn0rffhgd130zbCbAr/JdXfXkoOUFAKNs/rF8qnafSJ8KYaA/j3oz7dcwal+lYjLA7xvdd5J4wdYpCTlP8+w==
-  /@types/node/12.6.2:
-    dev: true
-    resolution:
-      integrity: sha512-gojym4tX0FWeV2gsW4Xmzo5wxGjXGm550oVUII7f7G5o4BV6c7DBdiG1RRQd+y1bvqRyYtPfMK85UM95vsapqQ==
   /@types/stack-utils/1.0.1:
     dev: true
     resolution:
       integrity: sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
-  /@types/ws/6.0.1:
+  /@types/ws/7.2.2:
     dependencies:
-      '@types/events': 3.0.0
-      '@types/node': 12.6.2
+      '@types/node': 12.12.7
     dev: true
     resolution:
-      integrity: sha512-EzH8k1gyZ4xih/MaZTXwT2xOkPiIMSrhQ9b8wrlX88L0T02eYsddatQlwVFlEPyEqV0ChpdpNnE51QPH6NVT4Q==
+      integrity: sha512-oqnI3DbGCVI9zJ/WHdFo3CUE8jQ8CVQDUIKaDtlTcNeT4zs6UCg9Gvk5QrFx2QPkRszpM6yc8o0p4aGjCsTi+w==
   /@types/yargs/12.0.12:
     dev: true
     resolution:
@@ -3582,7 +3573,7 @@ packages:
 specifiers:
   '@types/jest': ^24.0.15
   '@types/node': 12.12.7
-  '@types/ws': ^6.0.1
+  '@types/ws': ^7.2.2
   '@yume-chan/async-operation-manager': ^1.0.1
   '@yume-chan/fallback-websocket': 1.0.2
   jest: ^24.8.0
