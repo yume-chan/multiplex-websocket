@@ -6,8 +6,8 @@ devDependencies:
   '@types/node': 12.12.39
   '@types/ws': 7.2.4
   jest: 24.9.0
-  ts-jest: 26.0.0_jest@24.9.0+typescript@3.9.2
-  typescript: 3.9.2
+  ts-jest: 26.0.0_jest@24.9.0+typescript@3.9.3
+  typescript: 3.9.3
   ws: 7.3.0
 lockfileVersion: 5.1
 packages:
@@ -3428,7 +3428,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
-  /ts-jest/26.0.0_jest@24.9.0+typescript@3.9.2:
+  /ts-jest/26.0.0_jest@24.9.0+typescript@3.9.3:
     dependencies:
       bs-logger: 0.2.6
       buffer-from: 1.1.1
@@ -3440,7 +3440,7 @@ packages:
       micromatch: 4.0.2
       mkdirp: 1.0.4
       semver: 7.3.2
-      typescript: 3.9.2
+      typescript: 3.9.3
       yargs-parser: 18.1.3
     dev: true
     engines:
@@ -3469,13 +3469,13 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
-  /typescript/3.9.2:
+  /typescript/3.9.3:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-q2ktq4n/uLuNNShyayit+DTobV2ApPEo/6so68JaD5ojvc/6GClBipedB9zNWYxRSAlZXAe405Rlijzl6qDiSw==
+      integrity: sha512-D/wqnB2xzNFIcoBG9FG8cXRDjiqSTbG2wd8DMZeQyJlP1vfTkIxH4GKveWaEBYySKIg+USu+E+EDIR47SqnaMQ==
   /union-value/1.0.1:
     dependencies:
       arr-union: 3.1.0
@@ -3691,5 +3691,5 @@ specifiers:
   '@yume-chan/fallback-websocket': 1.0.2
   jest: 24.9.0
   ts-jest: 26.0.0
-  typescript: 3.9.2
+  typescript: 3.9.3
   ws: 7.3.0
