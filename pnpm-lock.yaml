@@ -1,14 +1,14 @@
 dependencies:
   '@yume-chan/async-operation-manager': 1.0.3
-  '@yume-chan/fallback-websocket': 1.0.3_ws@7.3.0
+  '@yume-chan/fallback-websocket': 1.0.3_ws@7.3.1
 devDependencies:
   '@types/jest': 26.0.0
   '@types/node': 14.0.13
-  '@types/ws': 7.2.5
+  '@types/ws': 7.2.6
   jest: 26.0.1
   ts-jest: 26.1.0_jest@26.0.1+typescript@3.9.5
   typescript: 3.9.5
-  ws: 7.3.0
+  ws: 7.3.1
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.1:
@@ -577,12 +577,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
-  /@types/ws/7.2.5:
+  /@types/ws/7.2.6:
     dependencies:
       '@types/node': 14.0.13
     dev: true
     resolution:
-      integrity: sha512-4UEih9BI1nBKii385G9id1oFrSkLcClbwtDfcYj8HJLQqZVAtb/42vXVrYvRWCcufNF/a+rZD3MxNwghA7UmCg==
+      integrity: sha512-Q07IrQUSNpr+cXU4E4LtkSIBPie5GLZyyMC1QtQYRLWz701+XcoVygGUZgvLqElq1nU4ICldMYPnexlBsg3dqQ==
   /@types/yargs-parser/15.0.0:
     dev: true
     resolution:
@@ -597,9 +597,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-FWzejjiDb3o1kpuruRCKhwh2ho5KOmix1GwGGDov8hUqUw6ODNeD3OszqxfPiVLAmtJ1Ib35/FREv14JndV6UA==
-  /@yume-chan/fallback-websocket/1.0.3_ws@7.3.0:
+  /@yume-chan/fallback-websocket/1.0.3_ws@7.3.1:
     dependencies:
-      ws: 7.3.0
+      ws: 7.3.1
     dev: false
     peerDependencies:
       ws: ^7.0.0
@@ -3807,6 +3807,7 @@ packages:
     resolution:
       integrity: sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q==
   /ws/7.3.0:
+    dev: true
     engines:
       node: '>=8.3.0'
     peerDependencies:
@@ -3819,6 +3820,19 @@ packages:
         optional: true
     resolution:
       integrity: sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
+  /ws/7.3.1:
+    engines:
+      node: '>=8.3.0'
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    resolution:
+      integrity: sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3861,10 +3875,10 @@ packages:
 specifiers:
   '@types/jest': 26.0.0
   '@types/node': 14.0.13
-  '@types/ws': 7.2.5
+  '@types/ws': 7.2.6
   '@yume-chan/async-operation-manager': ^1.0.1
   '@yume-chan/fallback-websocket': 1.0.3
   jest: 26.0.1
   ts-jest: 26.1.0
   typescript: 3.9.5
-  ws: 7.3.0
+  ws: 7.3.1
