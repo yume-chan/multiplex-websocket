@@ -1,5 +1,5 @@
 dependencies:
-  '@yume-chan/async-operation-manager': 1.0.3
+  '@yume-chan/async-operation-manager': 2.0.0
   '@yume-chan/fallback-websocket': 1.0.3_ws@7.3.1
 devDependencies:
   '@types/jest': 26.0.7
@@ -597,10 +597,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Dk/IDOPtOgubt/IaevIUbTgV7doaKkoorvOyYM2CMwuDyP89bekI7H4xLIwunNYiK9jhCkmc6pUrJk3cj2AB9w==
-  /@yume-chan/async-operation-manager/1.0.3:
+  /@yume-chan/async-operation-manager/2.0.0:
     dev: false
     resolution:
-      integrity: sha512-FWzejjiDb3o1kpuruRCKhwh2ho5KOmix1GwGGDov8hUqUw6ODNeD3OszqxfPiVLAmtJ1Ib35/FREv14JndV6UA==
+      integrity: sha512-Nqd2dZFFzjXUuVjQwJb1ODmSa7zFwqsNWkJnFrtD5PO+7fR4eWOh4adnS76rV2tSsr/fQnOlwsmFlY1UGI1EdA==
   /@yume-chan/fallback-websocket/1.0.3_ws@7.3.1:
     dependencies:
       ws: 7.3.1
@@ -3870,7 +3870,7 @@ specifiers:
   '@types/jest': 26.0.7
   '@types/node': 14.6.1
   '@types/ws': 7.2.6
-  '@yume-chan/async-operation-manager': ^1.0.1
+  '@yume-chan/async-operation-manager': ^2.0.0
   '@yume-chan/fallback-websocket': 1.0.3
   jest: 26.1.0
   ts-jest: 26.3.0
